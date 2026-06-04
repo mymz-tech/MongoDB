@@ -56,26 +56,6 @@ db.institute.insertOne({name:"New document"})
 db.institute.insertMany([{"course":"Data Engineering"}, {"course":"Data Analysis"}])
 ```
 
-## To be continued
-## Task 2
-
-1. Validation
-Create a new collection called "students"
-Find out how to implement Validation on the documents we want to create.
-This can be done either with the Compass GUI or Mongosh. Show how to do it for at least 1 of those options.
-```
-create collection
-go to the vaidation tab
-
-Showcase an invalid entry after setting up Validation and then a valid entry.
-What output do you get each time?
-```
-set up the rules
-
-age must be integer
-email must contain @
-```
-```
 
 
 
